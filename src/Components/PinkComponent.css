@@ -1,0 +1,96 @@
+.pink-box{
+    position: absolute;
+    width: 1430px;
+    height:1195.36px;
+    top: 1414px;
+    padding: 128px 115px 809.02px 115px;
+    gap: 64px;
+    opacity: 0px;
+    background: rgba(235, 218, 253, 1);
+
+}
+.supahub-container-row{
+    display: flex;
+    position: absolute;
+    top: 819px;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height:206.38px;
+    padding: 0px 0px 0px 24px;
+    gap: 208px;
+    opacity: 0px;
+}
+.supahub-wrapper-md{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 472px;
+    height: 133px;
+    padding: 0px 0px 1510px 0px;
+    gap: 16px;
+    opacity: 0px; 
+}
+.span-h2{
+    
+    width: 472px;
+    height: 96px;
+    padding: 0px 50.84px 1595px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.span-h2 h2{
+    font-family: Inter;
+    font-size: 47.1px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+    color: rgba(95, 37, 158, 1);    
+}
+.supahub-wrapper-md-para1{
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 1.399999976158142px;
+    text-align: left;
+    color: rgba(17, 24, 39, 1);
+}
+.supahub-wrapper-md-left{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 472px;
+    height: 206.38px;
+    padding: 16px 0px 1582px 0px;
+    gap: 40px;
+    opacity: 0px;
+}
+.supahub-wrapper-md-para1{
+    width: 472px;
+    height: 102.38px;
+    padding: 0px 2.31px 1596.4px 0px;
+    font-family: Century Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(31, 37, 52, 1);
+}
+.supahub-wrapper-md-btn button{
+    width: 253.24px;
+    height: 48px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    font-family: Century Gothic;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(14, 19, 32, 1);
+}

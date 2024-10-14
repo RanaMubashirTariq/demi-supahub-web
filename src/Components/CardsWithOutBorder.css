@@ -1,0 +1,78 @@
+.CardsWithOutBorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 1430px;
+    height: 329.18px;
+    top: 1084.83px;
+}
+.CardsWithOutBorder-inner-d{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* position: absolute; */
+    width: 100%;
+    max-width: 1152px;
+    height: 201.18px;
+    /* left: 139px; */
+     box-sizing: border-box;
+    /* padding: 0px 0px 0px 21.33px; */
+    gap: 74.66px;
+    opacity: 0px;
+    padding: 64px 0px 64px 139px;
+    flex: 0;
+    flex-grow: 0;
+}
+.card-simple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 201.18px;
+    box-sizing: border-box;
+    padding: 0px 0px 0.4px 0px;
+}
+.card-simple img{ 
+    width: 56px;
+    height: 56px;
+    left: 132px;
+    border-radius: 9999px; 
+}
+.cards-para{
+    width: 320px;
+    height: 76.79px;
+    top: 64px;  
+}
+.cards-para-inner{
+    width: 308px;
+    height: 71px;
+    top: 2px;
+    left: 6.17px; 
+    text-align: center; 
+}
+.cards-para p{
+    font-family: Century Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: rgba(17, 24, 39, 1);
+}
+.card-rating-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:108px;
+    height:52px;
+    top: 148.78px;
+    left: 105.67px;
+    gap: 7px;
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+}
+

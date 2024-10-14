@@ -1,0 +1,97 @@
+.navbar-section{
+    max-width: 1440px;
+    height: 64px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+
+     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    height: 64px;
+    padding: 0px 115px 0px 115px;
+}
+.navbar-right-part{
+    width: 142.6px;
+    height: 25px;
+    padding-top: 23px;
+    padding-left: 23px;
+}
+.navbar-left-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 625.58px;
+    height: 40px;
+    padding-top: 16px;
+    /* left: 550.42px; */
+}
+.navbar-left-part ul li{
+    display: inline;
+    list-style: none;
+    font-family: Gothic A1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    padding-top: 11.5px;
+    padding-left: 12px;
+
+}
+.navbar-left-part ul li a{
+    text-decoration: none;
+  color: rgba(107, 117, 137, 1);
+}
+.navbar-left-part ul li select{
+    border: none;
+    font-family: Gothic A1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    /* padding-top: 11.5px; */
+    padding-left: 12px;
+    color: rgba(107, 117, 137, 1);
+}
+.navbar-loging-btn{
+    outline: none;
+    background: none;
+    border: none;
+    width: 69.44px;
+    height: 40px;
+    left: 417.72px;
+    padding: 11.5px 16.44px 12.5px 16px;
+    gap: 0px;
+    border-radius: 8px;
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+     color: rgba(107, 117, 137, 1);  
+}
+.navbar-signup-btn{
+    outline: none;
+    background: none;
+    border: none;
+    width: 136.43px;
+    height: 40px;
+    left: 489.16px;
+    padding: 11.5px 18.43px 12.5px 16px;
+    border-radius: 8px;
+    background: rgba(134, 47, 231, 1);
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+
+

@@ -1,44 +1,37 @@
 .pink-box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
     position: absolute;
-    width: 1430px;
+    max-width: 100%;
+    width: 1440px;
     height:1195.36px;
     top: 1414px;
-    padding: 128px 115px 809.02px 115px;
     gap: 64px;
     opacity: 0px;
     background: rgba(235, 218, 253, 1);
-
 }
 .supahub-container-row{
     display: flex;
-    position: absolute;
-    top: 819px;
     justify-content: center;
     align-items: center;
-    width: 1200px;
-    height:206.38px;
-    padding: 0px 0px 0px 24px;
+    max-width: 1200px;
+    height: 206px;
     gap: 208px;
-    opacity: 0px;
+    padding: 128px 115px 0px 115px;
 }
 .supahub-wrapper-md{
-    position: absolute;
+    width: 472px;
+    height: 133px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 472px;
-    height: 133px;
-    padding: 0px 0px 1510px 0px;
     gap: 16px;
-    opacity: 0px; 
 }
 .span-h2{
-    
     width: 472px;
     height: 96px;
-    padding: 0px 50.84px 1595px 0px;
-    gap: 0px;
-    opacity: 0px;
+    padding: 0px 0px 73px 24px;
 }
 .span-h2 h2{
     font-family: Inter;
@@ -47,50 +40,111 @@
     line-height: 48px;
     letter-spacing: -1.2000000476837158px;
     text-align: left;
-    color: rgba(95, 37, 158, 1);    
+    color: rgba(95, 37, 158, 1);  
 }
 .supahub-wrapper-md-para1{
-    font-family: Century Gothic;
+    width: 203px;
+    height: 21px;
+    padding: 0px 269px 0px 24px;
+}
+.supahub-wrapper-md-para1 p{
+    font-family: Nanum Gothic;
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 1.399999976158142px;
     text-align: left;
-    color: rgba(17, 24, 39, 1);
+    color: rgba(17, 24, 39, 1);  
 }
 .supahub-wrapper-md-left{
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 472px;
     height: 206.38px;
-    padding: 16px 0px 1582px 0px;
-    gap: 40px;
-    opacity: 0px;
+    padding-right: 24px;
 }
-.supahub-wrapper-md-para1{
+.supahub-wrapper-md-para2{
     width: 472px;
-    height: 102.38px;
-    padding: 0px 2.31px 1596.4px 0px;
-    font-family: Century Gothic;
+    height: 102px;
+    padding: 16px 0px 0px 0px;
+}
+.supahub-wrapper-md-para2 p{
+    font-family: Nanum Gothic;
     font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
     text-align: left;
     color: rgba(31, 37, 52, 1);
 }
-.supahub-wrapper-md-btn button{
-    width: 253.24px;
+.supahub-wrapper-md-btn{
+    display: flex;
+    justify-content: center;
+    width: 253px;
     height: 48px;
-    gap: 0px;
     border-radius: 12px;
-    opacity: 0px;
-    font-family: Century Gothic;
+    background: rgba(14, 19, 32, 1);
+    padding: 14px 20px;
+}
+.supahub-wrapper-md-btn button{
+    outline: none;
+    border: none;
+    background: none;
+    padding: 14px 20px;
+    font-family: Nanum Gothic;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     text-align: left;
     color: rgba(255, 255, 255, 1);
-    background: rgba(14, 19, 32, 1);
+}
+.supahub-container-pics-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    height: 699.99px;
+    gap: 64px;
+    padding: 0px 115px 0px 0px;
+}
+.supahub-container-pic-row{  
+    width: 1152px;
+    height: 480px;
+    padding: 0px 24px 0px 24px;
+}
+.suphub-container-paragraph-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 1152px;
+     height: 124.99px;
+     padding: 0px 24px 0px 24px;
+}
+.suphub-container-paragraph-inner-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     width: 352px;
+     height: 124.99px;
+     border-top: 2px solid #cbcaca;
+}
+.suphub-container-paragraph-h-d h2{
+    font-family: Inter;
+    font-size: 23.1px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    color: rgba(17, 24, 39, 1); 
+    padding-top: 32.5px;  
+}
+.suphub-container-paragraph-para-d{
+    width: 352px;
+    height: 51.99px;
+    font-family: Century Gothic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: rgba(31, 37, 52, 1);  
 }

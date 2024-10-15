@@ -1,14 +1,24 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './NavbarSection.css'
 import BodySection from './BodySection'
 
 export default function NavBarSection() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+        
+
   return (
     <>
     <div className='navbar-section'>
          <div className='navbar-container'>
-               <div className='navbar-right-part'><img src='/Images/NavbarLogo.svg'/></div>
-               <div className='navbar-left-part'>
+               <div className='navbar-right-part'><img src='/Images/NavbarLogo.svg'/>
+                 <i className='fas fa-bars' onClick={toggleMenu}></i>
+               </div>
+               <div className={`navbar-left-part ${menuOpen ? 'open' : ''}`}>
                 <ul>
                     <li><select>
                           <option value="">Features</option>
@@ -28,7 +38,7 @@ export default function NavBarSection() {
               
          </div>
     </div>
-      <BodySection/>
+      {/* <BodySection/> */}
     </>
   )
 }

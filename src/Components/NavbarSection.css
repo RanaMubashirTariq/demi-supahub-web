@@ -34,14 +34,13 @@
 .navbar-left-part ul li{
     display: inline;
     list-style: none;
-    font-family: Gothic A1;
+    font-family: Nanum Gothic;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
     text-align: left;
     padding-top: 11.5px;
     padding-left: 12px;
-
 }
 .navbar-left-part ul li a{
     text-decoration: none;
@@ -49,7 +48,7 @@
 }
 .navbar-left-part ul li select{
     border: none;
-    font-family: Gothic A1;
+    font-family: Nanum Gothic;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -68,7 +67,7 @@
     padding: 11.5px 16.44px 12.5px 16px;
     gap: 0px;
     border-radius: 8px;
-    font-family: Century Gothic;
+    font-family: Nanum Gothic;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -85,13 +84,115 @@
     padding: 11.5px 18.43px 12.5px 16px;
     border-radius: 8px;
     background: rgba(134, 47, 231, 1);
-    font-family: Century Gothic;
+    font-family: Nanum Gothic;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
     color: rgba(255, 255, 255, 1);
     
 }
+.fa-bars{
+    /* padding-left: 250px; */
+    /* padding-right: 30px; */
+    font-size: 30px;
+    /* padding-top: 23px; */
+    display: none;
+}
+@media screen and (min-width:768px) and (max-width:1052px){
+      .navbar-container{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 150px;
+      }
+      .navbar-loging-btn{
+        width: 40.44px;
+        height: 40px;
+        padding: 11.5px 16.44px 12.5px 16px;
+        font-size: 10px;
+    }
+    .navbar-signup-btn{
+        width: 100.43px;
+        height: 40px;
+        padding: 10.5px 17.43px 11.5px 15px;
+        font-size: 9px;
+        
+    }
+    .navbar-left-part ul li{
+        font-size: 10px;
+    }
+    .navbar-left-part ul li select{
+        border: none;
+        font-family: Nanum Gothic;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 10px;
+        text-align: left;
+        /* padding-top: 11.5px; */
+        padding-left: 12px;
+        color: rgba(107, 117, 137, 1);
+    }
+    .navbar-right-part{
+        width: 100.6px;
+        height: 25px;
+        padding-top: 23px;
+        padding-left: 23px;
+    }
+    .navbar-left-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 625.58px;
+        height: 40px;
+        padding-top: 10px;
+        /* left: 550.42px; */
+    }
+}
+
+ 
+  @media screen and (min-width:480px) and (max-width: 767px) {
+    .fa-bars {
+      display: block;
+      cursor: pointer; 
+    }
+    .navbar-left-part ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 64px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .navbar-left-part.open ul {
+        display: block;
+      }
+  
+    .navbar-left-part.open ul {
+      display: flex;
+    }
+  
+    .navbar-left-part ul li {
+      padding: 15px 0px;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+    }
+    .navbar-right-part{
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 150px;
+        padding-left: 0;
+    }
+  }
+  
+
 
 
 

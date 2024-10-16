@@ -196,11 +196,9 @@
     .navbar-right-part{
         width: 100%;
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
         gap: 150px;
-        /* padding-left: 80px; */
-        /* padding-right: 50px; */
+    
     }
   }
 
@@ -211,7 +209,7 @@
         padding: 0;
     }
     .fa-bars {
-      padding-left: 150px;
+      padding-left: 100px;
       display: block;
       cursor: pointer; 
     }

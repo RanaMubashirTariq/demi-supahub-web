@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="">
       <NavBarSection/>
-      {/* <CardsWithOutBorder/>
-      <PinkComponent/> */}
+      <CardsWithOutBorder/>
+      {/* <PinkComponent/> */}
     </div>
   );
 }

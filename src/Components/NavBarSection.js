@@ -38,7 +38,7 @@ export default function NavBarSection() {
               
          </div>
     </div>
-      {/* <BodySection/> */}
+      <BodySection/>
     </>
   )
 }
